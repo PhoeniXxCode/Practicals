@@ -23,3 +23,18 @@ for i in range(rows,0,-1 ):
     print(i* "*")
 
 
+3 Pyramid Pattern:
+1)n = 5  # Number of rows for the pyramid
+for i in range(1, n + 1):  # Outer loop for rows
+    for j in range(n - i):  # Print leading spaces
+        print(" ", end="")
+    for j in range(2 * i - 1):  # Print stars
+        print("*", end="")
+    print()  # New line after each row
+2)
+rows=5
+for i in range(1,rows + 1):
+    print(" "*(rows-i)+"*"*(2*i-1))
+
+
+
